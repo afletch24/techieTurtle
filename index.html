@@ -19,7 +19,27 @@
   <meta name="google" content="notranslate" />
   <meta content="Mashup templates have been developped by Orson.io team" name="author">
 
-  <meta name="google-site-verification" content="lIlOHNOwLmDGriSmaGjdczb8kr70sUorQRnp7BNE1C4" />  
+  <meta name="google-site-verification" content="lIlOHNOwLmDGriSmaGjdczb8kr70sUorQRnp7BNE1C4" /> 
+  
+  <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '597409587127529');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=597409587127529&ev=PageView&noscript=1"
+        /></noscript>
+<!-- End Facebook Pixel Code -->
+
+
   <!-- flavicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
@@ -64,7 +84,7 @@
       </div>
 
       <div class="navbar-collapse">
-        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <button type="button" class="close" aria-label="Close"><span id="close" aria-hidden="true">&times;</span></button>
         <ul class="nav navbar-nav navbar-right">
              <li><a href="./index.html#about" title="" class="anchor-link">About</a></li>
             
@@ -174,7 +194,7 @@
                     <i class="fas fa-expand-arrows-alt fa-3x" aria-hidden="true"></i>
                 </div>
                 <h3 class="text-center">Responsive</h3>
-                <p class="text-center"> Websites deigned repsponsively to fit any screen from a mobile screen to a desktop. </p>
+                <p class="text-center"> Websites designed responsively to fit any screen from a mobile screen to a desktop. </p>
             </div>
             <div class="col-xs-12 col-md-4 services">
                 <div class="fa-container">
@@ -213,7 +233,7 @@
                         <h3>Open hours</h3>
                         <p>Mon - Fri : 9AM - 5PM</p>
                         <br>
-                        <a onclick="location.href='mailto:audrey@techieturtle.com';"class="btn btn-primary btn-lg anchor-link">Send me an Email</a>
+                        <a onclick="location.href='mailto:audrey@techieturtle.com'; fbq('track', 'Lead');"class="btn btn-primary btn-lg anchor-link">Send me an Email</a>
 
                     
                     </div>

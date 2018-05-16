@@ -18,6 +18,9 @@ span{
     color: black; 
     font-size: 1.1em;
 }
+#close{
+    color: #fff;
+}
 #headshot {
      height: 100%; 
     display: inline-block;
